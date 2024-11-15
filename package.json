@@ -1,0 +1,20 @@
+{
+  "name": "users",
+  "version": "1.0.0",
+  "description": "Users Information",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/deetruth1/"
+  },
+  "author": "Moel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.8.1",
+    "nodemon": "^3.1.7"
+  }
+}
