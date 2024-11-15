@@ -43,10 +43,11 @@ router.patch("/:id", async (req,res)=> {
     }
 })
 // having issues with delete all 
-// router.delete("/", async (req,res)=> {
-//     const users = await user.find()
-//     // users.delete
-// })
+router.delete("/", async (req,res)=> {
+    const users = await user.deleteMany()
+    res.status(200).json({message:"deleted"})
+    // users.delete
+})
 
 router.delete("/:id", async (req,res)=> {
     try {
